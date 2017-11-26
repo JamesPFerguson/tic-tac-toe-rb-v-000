@@ -83,7 +83,7 @@ end
 def turn_count(board)
   counter = 0
   board.each do |slot|
-    if (board[slot] == "X" || board[slot] == "O")
+    if (slot == "X" || slot == "O")
       counter += 1
     end
   end
